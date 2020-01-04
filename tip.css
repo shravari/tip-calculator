@@ -1,0 +1,82 @@
+html{
+	height: 100%;
+}
+body{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	margin: 0;
+	padding: 0;
+	background: linear-gradient(to bottom, #110D11,#8C1010);
+	background-repeat: no-repeat;
+}
+.container{
+	text-align: center;
+	background: white;
+	color: white;
+	width: 30%;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 20px;
+}
+h1{
+	background: #1F030C;
+}
+.calculator{
+	background-color: white;
+	color: black;
+	width: 100%;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	padding-bottom: 20px;
+}
+.calculator input{
+	height: 20px;
+	padding: 10px;
+	width: 280px;
+	border :1px solid #1F030C;
+	border-radius: 10px;
+	margin:8px 0px;
+}
+.calculator button{
+	display: block;
+	margin: 20px;
+	margin-top: 10px;
+	padding: 5px 20px;
+	border-radius: 10px;
+	background-color: #8C1010;
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 30px;
+}
+.calculator select{
+	height: 40px;
+	width: 300px;
+	border :1px solid #1F030C;
+	border-radius: 10px;
+	margin:8px;
+	font-size: 15px;
+}
+.calculator option{
+	font-size: 20px;
+	padding: 5px 10px;
+}
+.calculator p{
+	margin-bottom: 0;
+}
+.amount{
+	display: none;
+}
+.amount p{
+	margin: 0;
+	font-size: 27px;
+	font-weight: bold;
+}
+.amount p:last-child{
+	margin: 0;
+	font-size: 18px;
+	font-weight: bold;
+}
+.amount h3{
+	margin: 0;
+}
